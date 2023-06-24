@@ -1,6 +1,14 @@
+.App {
+  text-align: center;
+  background-color: rgb(75, 74, 72);
+}
 *{
   margin: 0;
   padding: 0;
+}
+.info{
+  color: #f5f5f5;
+
 }
 .movies{
   display: flex;
@@ -12,7 +20,7 @@
   height: 300px;
 }
 .movieCard{
-  background-color: rgb(233, 228, 210);
+  background-color: rgb(29, 28, 27);
 }
 h2,h3{
   font-size: 20px;}
