@@ -1,6 +1,7 @@
 import { useState , useRef} from 'react';
 import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
+import './Addmovie.css'
 
 function Addmovie({movies,setMovies}) {
   const [show, setShow] = useState(false);
@@ -25,10 +26,7 @@ function Addmovie({movies,setMovies}) {
 
   return (
     <>
-      <Button variant="primary" onClick={handleShow}>
-        Add Movie
-      </Button>
-
+      <button className="button-86" onClick={handleShow} >Add Movie</button>
       <Modal show={show} onHide={handleClose}>
         <Modal.Header closeButton>
           <Modal.Title>Add Movie</Modal.Title>
